@@ -4,7 +4,8 @@
     <img src="https://img.shields.io/badge/Java-22-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
     <img src="https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="">
     <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="">
-    <img src="https://img.shields.io/github/license/{Caua23}/{Rest-PrimeiroProgramaEmJava}.svg" alt="">
+    <hr>
+    <img src="https://img.shields.io/github/license/{Caua23}/{Rest-PrimeiroProgramaEmJava/LICENSE}.svg" alt="">
 </div>
 
 ## O Que Faz?
