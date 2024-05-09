@@ -20,7 +20,7 @@ import java.util.UUID;
 public class ProductController {
     @Autowired
     ProductRepository productRepository;
-        @PostMapping("/products")
+    @PostMapping("/products")
     public ResponseEntity<ProductModels> saveProduct(@RequestBody @Valid ProdutosRecordDto produtosRecordDto){
         var productModel = new ProductModels();
         System.out.println(produtosRecordDto);
@@ -42,7 +42,7 @@ public class ProductController {
         }
         return ResponseEntity.status(HttpStatus.OK).body(product0.get());
     }
-    @PutMapping("/products/{id}")
+        @PutMapping("/products/put/{id}")
     public  ResponseEntity<Object> PutProducts(@PathVariable(value = "id") UUID id,@RequestBody @Valid ProdutosRecordDto produtosRecordDto){
         Optional<ProductModels> product0 = productRepository.findById(id);
         if (product0.isEmpty()){
